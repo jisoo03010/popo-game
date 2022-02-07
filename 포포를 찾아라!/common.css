@@ -136,7 +136,7 @@ header {
     height: 207px;
     background-color: #fae4a7;
     position: absolute;
-    top: 269px;
+    top: 310px;
     transform: translateX(-50%);
     left: 50%;
     z-index: 9;
@@ -213,6 +213,7 @@ header {
 }
 
 #imgsIconBox img {
+    cursor: pointer;
     transition: .3s;
     width: 70px;
     animation: scboxbig 0.8s infinite ease-in-out alternate-reverse;
@@ -220,6 +221,7 @@ header {
 
 #imgsIconBox2 img {
     transition: .3s;
+    cursor: pointer;
     width: 70px;
     animation: scboxbig 0.8s infinite ease-in-out alternate-reverse;
 }
@@ -343,6 +345,28 @@ header {
     background-size: cover;
     background-position: center;
 }
+
+/*게임을 성공헀을때 나타나는 스타일*/
+#game_success {
+    width: 65%;
+    height: 150px;
+    background-color: #fae4a7;
+    position: absolute;
+    top: 310px;
+    transform: translateX(-50%);
+    left: 50%;
+    z-index: 9;
+    border-radius: 8px;
+    font-weight: 550;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 28px 20px 0px 20px;
+    line-height: 40px;
+    font-family: 'Gaegu', cursive;
+    display: none;
+}
+
+
 
 .img_boxbg01 {
     background-repeat: no-repeat;
